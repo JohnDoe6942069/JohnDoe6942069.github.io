@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: rgb(25, 91, 204);
+    background: rgb(99, 38, 27);
     font-weight: 5000;
 
 }
@@ -17,7 +17,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #7e0000;
   }
 
 ul#menu li {
@@ -50,7 +50,59 @@ h1 {
  text-align: center;
 
 }
-img {
-  margin-left: 100;
+h2 {
+  
+  font-size: 40;
+  margin-top:1px;
+  text-align: center;
+  color: rgb(180, 233, 34);
+
+}
+h3 {
+  font-size: 50;
+  margin-top:1px;
+  text-align: center;
+  color: rgb(255, 0, 0);
 }
 
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ /*Wolfe time */
+
+#clock{
+  min-height: 800px;
+  position: relative;
+
+}
+
+#CLOCK{
+  text-align: center;
+  font-size: 72px;
+  
+  color: #fff;
+  min-width: 10px;
+ 
+  border-radius: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+
+#alarm{
+  text-align: center;
+  font-size: 72px;
+  color: rgb(0, 0, 0);
+  min-width: 10px;
+  border-radius: absolute;
+
+  
+}
