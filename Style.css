@@ -106,3 +106,8 @@ img {
 
   
 }
+p {
+  text-align: center;
+  font-size: 70px;
+  background-color: rgb(63, 42, 42);
+}
