@@ -10,7 +10,7 @@ function displaytime(){
     else{
         var meridian = "AM";
     }
-    if(min>10){
+    if(min<10){
         min="0"+min
 
     }
@@ -45,4 +45,3 @@ function dinnerTime(){
     }
     document.getElementById("alarm").innerHTML = variable;}
 setInterval(dinnerTime,1000)
-
