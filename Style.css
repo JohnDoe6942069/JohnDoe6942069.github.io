@@ -74,6 +74,15 @@ img {
   width: 50%;
 }
 
+/*alignment for the wolfe cam*/
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+}
+
  /*Wolfe time */
 
 #clock{
@@ -111,3 +120,6 @@ p {
   font-size: 70px;
   background-color: rgb(63, 42, 42);
 }
+
+
+
